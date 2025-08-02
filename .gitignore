@@ -1,0 +1,25 @@
+# Python-specific ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE files
+.idea/  # Ignore PyCharm/IntelliJ folder
+*.iml
+.DS_Store  # macOS junk
+
+# Other common ignores
+*.log
+*.tmp
+*.swp
